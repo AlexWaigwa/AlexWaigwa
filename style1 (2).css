@@ -1,0 +1,208 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 0px;
+    padding: left 0;;
+    background-image: url(sc1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+}     
+  .fixed-header, .fixed-footer{
+    width: 100%;
+    position:fixed;        
+    background: rgb(48, 32, 16);
+    padding: 10px 0;
+    color: #fff;
+    opacity: 0.9;
+    text-align:left;
+    z-index: 100;
+}
+.head{
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+}
+.fixed-header{
+    top:0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+
+.head_container{
+    width: auto;
+    height: 20px;
+    position: 20px;
+}
+
+.row{
+    color: white;
+}
+
+.col-sm {
+ columns: 4;
+}
+.containerd{
+    width: 80%;
+    margin: 0 auto;
+    position: 20px;;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto; 
+    position: 200px;;
+    text-align: center;
+}
+
+.container1{
+    left: 600px;
+    top: 200px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    display: inline-block;
+}
+.text_center{
+    padding: 20px ;
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+.text_center{
+    left: 80px;
+}
+.main {
+    margin-left: 60px;
+    padding: 0px 10px;
+}
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .table{
+      width: 50%;
+      padding: 5px;
+      border:"1";   
+  }
+.records{
+    background-color: aqua;
+}
+.div{
+    width: 970px;
+    margin: auto;
+    padding-top: 75px;
+    display: block;
+}
+input,textarea {
+    width: 70%;
+    top: 150px;
+    bottom: 80px;
+    text-align: left;
+    left: 40px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+  }
+header {
+    color:#fff;
+    position:absolute;
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:9;
+  }
+  .hero-banner{
+    background-color: #3a2222;
+      background-size: content;
+      height:100vh;
+      display:flex;
+      align-items:center;
+      text-align:center;
+      position:relative;
+      z-index:0;
+      opacity: 0.8;
+    }
+    .hero-banner:after{
+      content:"";
+      display:block;
+      background:rgba(0,0,0,0.5);
+      left:0;
+      top: 0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+    .hero-banner h1{
+      color:rgb(208, 216, 208);
+      position:relative;
+      z-index:100;
+     font-size: 70px;
+    }
+    .about{
+      text-align:center;
+      line-height:3.5;
+      color: rgb(3, 3, 3);
+    }
+    .Events{
+      text-align:center;
+      line-height:2;
+      background:transparent;
+    }
+   .gallery{
+       text-align: center;
+       line-height: 30;
+       background-color: #5e321d;
+       opacity: 0.9;
+   }
+   .brands{
+       text-align: top left;
+       line-height: 2;
+       background-color: #5e321d;
+       opacity: 0.9;
+       font-size: 20px;
+   }
+   .brands_img{
+       height: 5%;
+       width: 10%;
+       padding: 2px 30px;
+       display: inline-block;
+   }
+   .footer{
+       padding-bottom: 0%;
+       line-height: 8;
+       background-color: black;
+       color: white;
+       width: 100%;
+       bottom: 0;
+   }
+   .contacts{
+       position: left;
+
+   }
+   .followus{
+       text-align: center;
+   }
+   .location{
+       text-align: right;
+   }
+   
+   .btn{
+    width: 30%;
+    padding-left: 20px;
+    background:#0c0c0c;
+    border: 1px solid #fff ;
+    height: 50px;
+    font-size: 30px;
+    margin: 35px 0 10px;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
